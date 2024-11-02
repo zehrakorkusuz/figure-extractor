@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4. Illustration of sub-categories within the ‘Touchscreen’ category",
+  "captionBoundary": {
+    "x1": 120.37999725341797,
+    "x2": 470.621826171875,
+    "y1": 740.9932250976562,
+    "y2": 746.1599731445312
+  },
+  "figType": "Figure",
+  "imageText": ["Clicking", "on", "the", "Category", "ID", "or", "the", "Description", "leads", "you", "to", "the", "subcategories", "and/", "or", "data-fields", "contained", "within", "that", "category."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.28,
+    "x2": 528.96,
+    "y1": 547.68,
+    "y2": 724.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure4-1.png"
+}, {
+  "caption": "Figure 3. Illustration of the tree structure via BROWSE",
+  "captionBoundary": {
+    "x1": 124.81999969482422,
+    "x2": 413.5419921875,
+    "y1": 527.4939575195312,
+    "y2": 533.1099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["The", "Items", "column", "lists", "the", "number", "of", "data-fields", "in", "each", "category", "(and", "its", "sub-categories)", "The", "Help", "button", "provides", "more", "information", "about", "items,", "as", "listed", "in", "the", "Glossary", "(at", "the", "bottom", "of", "the", "Help", "page)", "Clicking", "on", "the", "‘Level’", "buttons", "is", "an", "easy", "way", "to", "jump", "to", "a", "more", "detailed", "level", "of", "the", "tree"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 518.88,
+    "y1": 321.59999999999997,
+    "y2": 527.52
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure3-1.png"
+}, {
+  "caption": "Figure 5. Illustration of a data-field page",
+  "captionBoundary": {
+    "x1": 205.3699951171875,
+    "x2": 399.32830810546875,
+    "y1": 717.3532104492188,
+    "y2": 722.5199584960938
+  },
+  "figType": "Figure",
+  "imageText": ["This", "data-field", "is", "presented", "as", "an", "array", "(i.e.", "there", "are", "multiple", "measurements", "per", "person)", "Technical", "information", "about", "each", "data-field", "is", "provided", "in", "these", "box", "panels", "More", "detailed", "information", "on", "each", "data-field", "is", "provided", "in", "separate", "tabs,", "including", "related", "data-", "fields", "of", "interest", "and", "documentation", "about", "each", "measure", "(Resources)", "The", "Data", "tab", "(shown)", "provides", "information", "on", "the", "distribution", "of", "the", "data-field"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 34.56,
+    "x2": 584.16,
+    "y1": 480.47999999999996,
+    "y2": 700.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure5-1.png"
+}, {
+  "caption": "Figure 6. Illustration of the Search facility",
+  "captionBoundary": {
+    "x1": 202.97000122070312,
+    "x2": 401.7910461425781,
+    "y1": 260.2032775878906,
+    "y2": 265.3699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Data-Field", "Search", "allows", "you", "to", "specify", "the", "criteria", "of", "the", "search.", "The", "default", "Search", "option", "does", "not", "search", "supporting", "or", "auxiliary", "data-fields", "by", "default,", "but", "these", "can", "be", "specified", "using", "the", "options", "in", "the", "Strata", "panel."],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 451.2,
+    "y1": 71.52,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure6-1.png"
+}, {
+  "caption": "Figure 7. Illustration of the coding for medical conditions in the verbal interview",
+  "captionBoundary": {
+    "x1": 113.18000030517578,
+    "x2": 494.7894287109375,
+    "y1": 725.2732543945312,
+    "y2": 730.4400024414062
+  },
+  "figType": "Figure",
+  "imageText": ["The", "‘COUNT’", "column", "shows", "the", "number", "of", "data", "items", "listed", "in", "the", "category."],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 150.72,
+    "x2": 555.36,
+    "y1": 505.44,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure7-1.png"
+}, {
+  "caption": "Figure 1. Illustration of the Category Search",
+  "captionBoundary": {
+    "x1": 108.0199966430664,
+    "x2": 320.9382019042969,
+    "y1": 441.3032531738281,
+    "y2": 446.469970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Entering", "a", "numeric", "value", "in", "the", "Category", "search", "box", "will", "return", "the", "category", "with", "that", "ID.", "Clicking", "on", "the", "Category", "button", "on", "the", "main", "Search", "page", "leads", "you", "to", "the", "Category", "search", "page."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 527.04,
+    "y1": 283.68,
+    "y2": 433.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure1-1.png"
+}, {
+  "caption": "Figure 2. Illustration of the Genomic Search",
+  "captionBoundary": {
+    "x1": 108.0199966430664,
+    "x2": 320.308837890625,
+    "y1": 719.033203125,
+    "y2": 724.199951171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 435.35999999999996,
+    "y1": 587.52,
+    "y2": 696.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/pdffigures2/data/output/figures/ShowcaseUserGuide-Figure2-1.png"
+}]

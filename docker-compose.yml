@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pdffigures2_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+       - ./data:/pdffigures2/data  # Mount the data folder from the project root
+    ports:
+      - "5001:5001"  # Expose port 5001
+    restart: unless-stopped  # Optional: restart policy
