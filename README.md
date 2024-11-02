@@ -161,7 +161,7 @@ When processing multiple PDFs, you can generate a statistics file by including t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
