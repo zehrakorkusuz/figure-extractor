@@ -79,8 +79,8 @@ class PDFProcessor: #changed path to mounted folder
             base_command = [
                 "java", "-jar", self.jar_path,
                 pdf_path,
-                "-m", self.metadata_output_dir,
-                "-d", self.figure_output_dir,
+                "-m", self.figure_output_dir,
+                "-d", self.metadata_output_dir,
                 "--dpi", dpi
             ]
 
@@ -101,7 +101,7 @@ class PDFProcessor: #changed path to mounted folder
 
             # Check for the generated figures
             figures_output = [
-                f for f in os.listdir(self.output_dir)
+                f for f in os.listdir(self.figure_output_dir)
                 if f.startswith(os.path.basename(pdf_path).replace('.pdf', '')) and f.endswith('.png')
             ]
 
@@ -196,16 +196,10 @@ class PDFProcessor: #changed path to mounted folder
                 logging.error("PDF directory does not exist.")
                 return {"success": False, "error": "Invalid PDF directory path."}
 
-            # Create output directories if they do not exist
-            figure_output_dir = os.path.join(self.output_dir, "figures/")
-            metadata_output_dir = os.path.join(self.output_dir, "metadata/")
-            os.makedirs(figure_output_dir, exist_ok=True)
-            os.makedirs(metadata_output_dir, exist_ok=True)
-
             # Ensure the command is properly formatted
             base_command = (
                 f'sbt "runMain org.allenai.pdffigures2.FigureExtractorBatchCli '
-                f'{pdf_directory} -s {stat_file} -m {figure_output_dir} -d {metadata_output_dir}"'
+                f'{pdf_directory} -s {stat_file} -m {self.figure_output_dir} -d {self.metadata_output_dir}"'
             )
 
             logging.info(f"Executing batch command: {base_command}")
