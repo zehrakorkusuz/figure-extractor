@@ -29,7 +29,7 @@ This API service is built on top of PDFFigures 2.0, a Scala-based project by the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/figure-extractor.git
+   git clone https://github.com/zehrakorkusuz/figure-extractor
    cd figure-extractor
    ```
 
