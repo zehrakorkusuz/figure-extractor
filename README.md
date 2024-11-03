@@ -11,9 +11,9 @@ This API service is built on top of PDFFigures 2.0, a Scala-based project by the
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌────────────────┐
-│   Your App      │ HTTP │  Figure Extractor │ JNI  │  PDFFigures    │
+│   Your App      │ HTTP │ Figure Extractor │ JNI  │  PDFFigures    │
 │  (Any Language) │──────►      API         │──────►     2.0        │
-│                 │      │  (Flask Service)  │      │  (Scala/JVM)   │
+│                 │      │  Python(Flask)   │      │  (Scala/JVM)   │
 └─────────────────┘      └──────────────────┘      └────────────────┘
 ```
 ## Features
